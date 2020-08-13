@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link href="../../css/all.css" rel="stylesheet" type="text/css">
+    <title>Personal Givings Viewer | Security | Crumble</title>
+</head>
+
+<body>
+    <ul class="nav_ul">
+        <li style="width: 10vw; height: 1px;" class="nav_li"></li>
+        <li class="nav_li"><a class="nav_a" href="../../index.html">Home</a></li>
+        <li class="nav_li"><a class="nav_a_active" href="../pgv/index.html">Personal Givings Viewer</a></li>
+        <li class="nav_li"><a class="nav_a" href="../../apps/niparades/index.html">Northern Ireland Parades</a></li>
+        <li class="nav_li"><a class="nav_a" href="../../apps/squdoodle/index.html">Squdoodle</a></li>
+        <li class="nav_li"><a class="nav_a" href="../../apps/unca/index.html">UNCA</a></li>
+        <li class="nav_li"><a class="nav_a" href="../../contact.html">Contact</a></li>
+    </ul>
+
+    <div id="main_container">
+        <h1><u><b>Personal Givings Viewer - Security</b></u></h1>
+
+        <p>The Personal Givings Viewer is shortened to PGV on this page.</p>
+
+        <h2>Services the PGV uses</h2>
+
+        <p>The PGV uses <a href="https://firebase.google.com/">Firebase</a> (owned by Google) for data storage and user authentication and <a href="https://pages.github.com/">Github Pages</a> (owned by Microsoft) to host the website.</p>
+
+        <h3>Is Firebase safe and secure?</h3>
+
+        <p>Yes. Full details about Firebase's <a href="https://firebase.google.com/support/privacy#security_information">security</a> and privacy policies can be found <a href="https://firebase.google.com/support/privacy">here</a>.</p>
+
+        <h3>Is Github Pages safe and secure?</h3>
+
+        <p>Yes. Full details about Github Pages security and privacy policies can be found <a href="https://github.com/security">here</a> (security) and <a href="https://github.com/site/privacy">here</a> (privacy).</p>
+
+        <h2>Where and how are user's PINs stored?</h2>
+
+        <p>The PINs are stored on Firebase's servers. There they are encrypted and hashed so even if attackers get access to the server the PIN hash is stored in, which itself is highly unlikely, they still won't have access to the actual PIN.</p>
+    </div>
+
+</body>
+
+<footer>
+    <a href="../../privacy-policies/no-data.html">Privacy policy</a>
+</footer>
+
+</html>
