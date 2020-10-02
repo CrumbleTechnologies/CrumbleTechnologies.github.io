@@ -69,7 +69,8 @@ footer {
     bottom: 0;
     margin-bottom: 2.5vh;
     height: 2.5rem;
-    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 button {
